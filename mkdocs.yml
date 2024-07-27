@@ -60,7 +60,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - DRV8825 Breakout Board:
-    - Introduction: DRV8825 Breakout Board\Introduction.md
+    - DRV8825 Breakout Board\Introduction.md
     - Quick Start: DRV8825 Breakout Board\Quick Start.md
     - Libraries: DRV8825 Breakout Board\libraries.md
     - Microstepping: DRV8825 Breakout Board\microstepping.md
