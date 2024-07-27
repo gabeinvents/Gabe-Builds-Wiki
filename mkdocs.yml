@@ -65,8 +65,8 @@ nav:
     - Libraries: DRV8825 Breakout Board\libraries.md
     - Microstepping: DRV8825 Breakout Board\microstepping.md
     - Cloning Inputs: DRV8825 Breakout Board\Cloning Inputs.md
+  - Tags: tag.md
   - Store: store.md
-  - Tags: tags.md
 
 extra:
   tags:
