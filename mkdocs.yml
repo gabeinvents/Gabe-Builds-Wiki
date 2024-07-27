@@ -60,10 +60,10 @@ nav:
   - Home: index.md
   - DRV8825 Breakout Board: 
     - DRV8825 Breakout Board\Introduction.md
-    - Quick Start: DRV8825 Breakout Board\Quick Start.md
-    - Libraries: DRV8825 Breakout Board\libraries.md
-    - Microstepping: DRV8825 Breakout Board\microstepping.md
-    - Cloning Inputs: DRV8825 Breakout Board\Cloning Inputs.md
+    - DRV8825 Breakout Board\Quick Start.md
+    - DRV8825 Breakout Board\libraries.md
+    - DRV8825 Breakout Board\microstepping.md
+    - DRV8825 Breakout Board\Cloning Inputs.md
   - Tags: tags.md
   - Store: store.md
 
