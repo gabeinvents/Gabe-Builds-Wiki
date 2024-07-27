@@ -5,32 +5,40 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
-    - toc.integrate
+    - toc.follow
     - navigation.top
+    - navigation.tabs.sticky
+    - navigation.expand
     - search.suggest
-    - search.highlight
+    #- search.highlight
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
+
   language: en
   palette:
-    - scheme: default
+    - scheme: slate # Dark Mode Pallette is default
       toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: teal
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: indigo
       accent: lime
+    - scheme: default # Light Mode Pallette is a toggleable option
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode    
+      primary: blue
+      accent: deep purple
 
-plugins:
-  - search
+  icon:
+    tag:
+      HTML: fontawesome/brands/html5
+      JS: fontawesome/brands/js
+      CSS:  fontawesome/brands/css3
 
 markdown_extensions:
+  - toc:
+      permalink: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -42,7 +50,42 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
-  - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - md_in_html
+  - attr_list
+
+nav:
+  - Home: index.md
+  - DRV8825 Breakout Board:
+    - Introduction: DRV8825 Breakout Board\Introduction.md
+    - Quick Start: DRV8825 Breakout Board\Quick Start.md
+    - Libraries: DRV8825 Breakout Board\libraries.md
+    - Microstepping: DRV8825 Breakout Board\microstepping.md
+    - Cloning Inputs: DRV8825 Breakout Board\Cloning Inputs.md
+  - Store: store.md
+  - Tags: tags.md
+
+extra:
+  tags:
+    HTML5: html
+    Javascript: js
+    CSS: css
+  generator: true
+
+copyright: Copyright &copy; 2024 - 2024, Gabe Builds
+
+plugins:
+  - tags:
+      tags_file: tags.md
+  - search
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
