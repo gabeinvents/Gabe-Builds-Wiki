@@ -59,11 +59,11 @@ markdown_extensions:
 nav:
   - Home: index.md
   - DRV8825 Breakout Board: 
-    - DRV8825 Breakout Board\Introduction.md
-    - DRV8825 Breakout Board\Quick Start.md
-    - DRV8825 Breakout Board\libraries.md
-    - DRV8825 Breakout Board\microstepping.md
-    - DRV8825 Breakout Board\Cloning Inputs.md
+    - DRV8825 Breakout Board/Introduction.md
+    - DRV8825 Breakout Board/Quick Start.md
+    - DRV8825 Breakout Board/libraries.md
+    - DRV8825 Breakout Board/microstepping.md
+    - DRV8825 Breakout Board/Cloning Inputs.md
   - Tags: tags.md
   - Store: store.md
 
