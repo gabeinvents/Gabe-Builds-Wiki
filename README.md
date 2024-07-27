@@ -1,1 +1,1 @@
-# gabebuilds.github.com
+https://gabeinvents.github.io/Gabe-Builds-Wiki/
