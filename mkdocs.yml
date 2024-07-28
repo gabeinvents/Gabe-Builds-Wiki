@@ -4,6 +4,7 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - toc.follow
     - navigation.top
@@ -59,7 +60,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - DRV8825 Breakout Board: 
-    - DRV8825 Breakout Board/Introduction.md
+    - DRV8825 Breakout Board/Introduction.md #Make sure "/" is used and not "\"
     - DRV8825 Breakout Board/Quick Start.md
     - DRV8825 Breakout Board/libraries.md
     - DRV8825 Breakout Board/microstepping.md
